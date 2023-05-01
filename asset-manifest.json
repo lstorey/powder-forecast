@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/powder-forecast/static/css/main.61425588.css",
+    "main.js": "/powder-forecast/static/js/main.d8b06559.js",
+    "static/js/787.9febe599.chunk.js": "/powder-forecast/static/js/787.9febe599.chunk.js",
+    "index.html": "/powder-forecast/index.html",
+    "main.61425588.css.map": "/powder-forecast/static/css/main.61425588.css.map",
+    "main.d8b06559.js.map": "/powder-forecast/static/js/main.d8b06559.js.map",
+    "787.9febe599.chunk.js.map": "/powder-forecast/static/js/787.9febe599.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61425588.css",
+    "static/js/main.d8b06559.js"
+  ]
+}
