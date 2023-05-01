@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import BestDays from "./BestDays";
+import DetailedForecast from "./DetailedForecast";
+import PowderIndex from "./PowderIndex";
+import { barData, bestDaysData, lineData } from "./constants";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BestDays data={bestDaysData} />
+      <PowderIndex data={barData} />
+      <DetailedForecast data={lineData} />
     </div>
   );
 }
